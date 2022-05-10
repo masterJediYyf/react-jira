@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
+# 做爬虫的地方
 User-agent: *
 Disallow:
