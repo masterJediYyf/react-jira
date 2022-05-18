@@ -1,20 +1,8 @@
+import { useAuth } from "context/auth-context";
 import React, { FormEvent } from "react";
 
-const apiURL = process.env.REACT_APP_API_URL;
-
-export const LoginScreen = () => {
-  const login = (param: { username: string; password: string }) => {
-    fetch(`${apiURL}/login`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(param),
-    }).then(async (response) => {
-      if (response.ok) {
-      }
-    });
-  };
+export const RegisterScreen = () => {
+  const { login, user } = useAuth();
 
   // HTMLFormElement extends Element
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
