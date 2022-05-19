@@ -16,7 +16,7 @@ interface ListProps {
 
 export const List = ({ list, users }: ListProps) => {
   return (
-    <div>
+    <table>
       <thead>
         <tr>
           <th>名称</th>
@@ -34,6 +34,6 @@ export const List = ({ list, users }: ListProps) => {
           </tr>
         ))}
       </tbody>
-    </div>
+    </table>
   );
 };

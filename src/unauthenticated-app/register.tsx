@@ -1,7 +1,7 @@
 import { useAuth } from "context/auth-context";
 import React, { FormEvent } from "react";
 
-export const LoginScreen = () => {
+export const RegisterScreen = () => {
   const { user, register } = useAuth();
 
   // HTMLFormElement extends Element
