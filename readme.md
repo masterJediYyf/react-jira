@@ -1,7 +1,7 @@
 TS 是鸭子类型：面向接口编程 而不是面向对象编程
 
 # git 提交规范
-> feat:     A new feature
+  feat:     A new feature
   fix:      A bug fix
   docs:     Documentation only changes
   style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
