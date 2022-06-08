@@ -38,6 +38,7 @@ export const List = ({ list, users }: ListProps) => {
         },
       ]}
       dataSource={list}
+      rowKey="id"
     />
   );
 };
